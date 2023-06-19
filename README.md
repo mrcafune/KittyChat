@@ -52,6 +52,6 @@ Deploy the finished application to Flatpak, Snap, Deb, and RPM
   Format the help command, add additional options for navigation
 <br />
 
-## 🫰 NOTICE
+## 🫰 API Access
 
 This application is designed to use OpenAI's GPT-3 model. Please ensure you are aware of the costs associated with using OpenAI's API before using this application.
