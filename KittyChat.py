@@ -39,7 +39,9 @@ def main():
 ██║  ██╗██║   ██║      ██║      ██║   ╚██████╗██║  ██║██║  ██║   ██║   
 ╚═╝  ╚═╝╚═╝   ╚═╝      ╚═╝      ╚═╝    ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   
                                                                      ''')
-    print("CLI Virtual AI Assistant - Powered by ChatGPT\nType -help for additional commands")
+    print("-------------------------------------------------------------")
+    print("https://kittentechnologies.com | Type -help for more options")
+    print("-------------------------------------------------------------")
     session_filename = 'saved_sessions.json'
     config_filename = 'config.json'
     
