@@ -50,7 +50,6 @@ Deploy the finished application to Flatpak, Snap, Deb, and RPM
 
 - **Improved Help**<br />
   Format the help command, add additional options for navigation
-<br />
 
 ## 🫰 API Access
 
