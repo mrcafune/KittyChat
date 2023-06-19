@@ -4,9 +4,6 @@ KittyChat is an interactive Python application that integrates OpenAI's powerful
 
 Built with Python and using OpenAI's API, KittyChat delivers thoughtful and contextually relevant responses, offering a unique and exciting conversational experience.
 
-
-![screenshot](https://github.com/mrcafune/KittyChat/assets/101951803/fe8de2ec-ee43-4643-96fc-8f85b82b4b20)
-
 ## Key Features
 
 - **Interactive Conversations:** Engage in real-time, dynamic conversations with the virtual assistant powered by GPT-3.
@@ -21,9 +18,11 @@ Built with Python and using OpenAI's API, KittyChat delivers thoughtful and cont
 
 ## Usage
 
-To use KittyChat, you will need to have an API key from OpenAI.
+![screenshot](https://github.com/mrcafune/KittyChat/assets/101951803/fe8de2ec-ee43-4643-96fc-8f85b82b4b20)
 
-After starting the application, you can choose to start a new conversation or load a previous session. The application will guide you with the available commands and options. During the conversation, type your message after the "You:" prompt and the virtual assistant will respond accordingly.
+To use KittyChat, you will need to have an API key from OpenAI and will need to replace the "api_token" variable in the Main function.
+
+After starting the application, you can choose to start a new conversation or load a previous session. The application will guide you with the available commands and options by entering -help. During the conversation, type your message after the "Message:" prompt and the virtual assistant will respond accordingly.
 
 ## Commands
 
