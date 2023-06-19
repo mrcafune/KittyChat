@@ -4,7 +4,7 @@ KittyChat is an interactive Python application that integrates OpenAI's powerful
 
 Built with Python and using OpenAI's API, KittyChat delivers thoughtful and contextually relevant responses, offering a unique and exciting conversational experience.
 
-## Key Features
+## 🔑 Key Features
 
 - **Interactive Conversations:** Engage in real-time, dynamic conversations with the virtual assistant powered by GPT-3.
 
@@ -16,7 +16,7 @@ Built with Python and using OpenAI's API, KittyChat delivers thoughtful and cont
 
 - **Command Options:** Use various commands (`-help`, `-alwaysask`, `-neverask`, `-exit`) for improved interactivity and control over the application.
 
-## Usage
+## 🖥️ Usage
 
 ![screenshot](https://github.com/mrcafune/KittyChat/assets/101951803/fe8de2ec-ee43-4643-96fc-8f85b82b4b20)
 
@@ -24,7 +24,7 @@ To use KittyChat, you will need to have an API key from OpenAI and will need to 
 
 After starting the application, you can choose to start a new conversation or load a previous session. The application will guide you with the available commands and options by entering -help. During the conversation, type your message after the "Message:" prompt and the virtual assistant will respond accordingly.
 
-## Commands
+## 👩‍💻 Commands
 
 - `-exit`: Exit the conversation. You'll be prompted to save the conversation.
 
@@ -34,4 +34,24 @@ After starting the application, you can choose to start a new conversation or lo
 
 - `-help`: Display the help message. (lol)
 
-**NOTE**: This application is designed to use OpenAI's GPT-3 model. Please ensure you are aware of the costs associated with using OpenAI's API before using this application.
+## 🗺️ Roadmap 
+
+- **Better Formatting of Responses**<br />
+Modify the response to be more readable and account for styles of information, like code and list
+
+- **Improved Session System**<br />
+Provide tools to print the entire previous session, parts of it, set one or the other by default on load, etc.
+
+- **Create 'First Time Setup'**<br />
+Allow users to enter API keys on initial setup rather than manually setting it, and choose what Model you want
+
+- **Application Packagement**<br />
+Deploy the finished application to Flatpak, Snap, Deb, and RPM
+
+- **Improved Help**<br />
+  Format the help command, add additional options for navigation
+<br />
+
+## 🫰 NOTICE
+
+This application is designed to use OpenAI's GPT-3 model. Please ensure you are aware of the costs associated with using OpenAI's API before using this application.
