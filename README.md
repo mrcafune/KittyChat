@@ -1,10 +1,8 @@
-# 🐈 KittyChat - Your Personal AI Assistant
+# 🐈 KittyChat - Your Terminal AI Assistant
 
 KittyChat is an interactive Python application that integrates OpenAI's powerful GPT-3 model to create a highly engaging, AI-driven conversation interface. The application allows users to engage in dynamic conversations with a virtual assistant, right from the comfort of their terminal.
 
 Built with Python and using OpenAI's API, KittyChat delivers thoughtful and contextually relevant responses, offering a unique and exciting conversational experience.
-
-
 
 ## Key Features
 
