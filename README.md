@@ -17,7 +17,7 @@ Built with Python and using OpenAI's API, KittyChat delivers thoughtful and cont
 - **Session Management:** Start a new conversation or continue from a saved session. The application can store your conversation history for later reference.
 
 - **Command Options:** Use various commands (`-help`, `-alwaysask`, `-neverask`, `-exit`) for improved interactivity and control over the application.
-
+  
 ## 🖥️ Usage
 
 ![screenshot](https://github.com/mrcafune/KittyChat/assets/101951803/fe8de2ec-ee43-4643-96fc-8f85b82b4b20)
@@ -36,9 +36,11 @@ After starting the application, you can choose to start a new conversation or lo
 
 - `-help`: Display the help message. (lol)
 
+- `-model`: Change the AI Model (Not functional)
+  
 ## 🗺️ Roadmap 
 
-- **Better Formatting of Responses**<br />
+- **[Complete] Better Formatting of Responses**<br />
 Modify the response to be more readable and account for styles of information, like code and list
 
 - **Improved Session System**<br />
@@ -50,8 +52,25 @@ Allow users to enter API keys on initial setup rather than manually setting it, 
 - **Application Packagement**<br />
 Deploy the finished application to Flatpak, Snap, Deb, and RPM
 
-- **Improved Help**<br />
+- **[Complete] Improved Help**<br />
   Format the help command, add additional options for navigation
+  
+## 🗒️ Change Log
+**6/23/2023**
+
+- Improved the text generation rate to emulate GPT more accurately, resulting in faster and more appropriately formatted output
+
+- Introduced functionality to color-code comments in the generated code for improved readability.
+
+- Enhanced the Welcome Screen with additional, useful information for better user orientation.
+
+- Revamped the formatting of the (`-help`) command to increase visual appeal and integrated the (`-model`) functionality.
+
+- Optimized the feedback mechanism for Configuration Changes to detail the specific alterations made.
+
+- Partially implemented support for additional models. There are still issues with consistent model switching that need to be resolved.
+
+- The `-model` command is currently non-operational but is displayed in the `-help` command output. Work is in progress to make this fully functional.
 
 ## 🫰 API Access
 
