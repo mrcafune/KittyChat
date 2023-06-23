@@ -20,11 +20,13 @@ Built with Python and using OpenAI's API, KittyChat delivers thoughtful and cont
   
 ## 🖥️ Usage
 
-![screenshot](https://github.com/mrcafune/KittyChat/assets/101951803/fe8de2ec-ee43-4643-96fc-8f85b82b4b20)
-
 To use KittyChat, you will need to have an API key from OpenAI and will need to replace the "api_token" variable in the Main function.`(api_key = ("sk-YOUR-API-KEY-HERE")`
 
 After starting the application, you can choose to start a new conversation or load a previous session. The application will guide you with the available commands and options by entering -help. During the conversation, type your message after the "Message:" prompt and the virtual assistant will respond accordingly.
+
+<img width="862" alt="Screen Shot 2023-06-23 at 7 44 31 AM" src="https://github.com/mrcafune/KittyChat/assets/101951803/7e4bd39d-d2f6-4367-8f8f-1416c3d3b29c">
+
+
 
 ## 👩‍💻 Commands
 
