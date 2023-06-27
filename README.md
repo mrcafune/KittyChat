@@ -1,5 +1,7 @@
 # 🐈 KittyChat - Terminal AI Assistant
 
+<img width="523" alt="Screen Shot 2023-06-27 at 10 24 54 AM" src="https://github.com/mrcafune/KittyChat/assets/101951803/56bbcbea-4312-4c55-982e-6485e35cf18a">
+
 https://kittentechnologies.com
 
 KittyChat is an interactive Python application that integrates OpenAI's powerful GPT-3 model to create a highly engaging, AI-driven conversation interface. The application allows users to engage in dynamic conversations with a virtual assistant, right from the comfort of their terminal.
@@ -16,17 +18,17 @@ Built with Python and using OpenAI's API, KittyChat delivers thoughtful and cont
 
 - **Session Management:** Start a new conversation or continue from a saved session. The application can store your conversation history for later reference.
 
-- **Command Options:** Use various commands (`-help`, `-alwaysask`, `-neverask`, `-exit`) for improved interactivity and control over the application.
+- **Command Options:** Use various commands for improved interactivity and control over the application.
   
 ## 🖥️ Usage
 
-To use KittyChat, you will need to have an API key from OpenAI and will need to replace the "api_token" variable in the Main function.`(api_key = ("sk-YOUR-API-KEY-HERE")`
+To use KittyChat, you will need to have an API key from OpenAI.  On first time setup, you will be prompted for your API Key and desired model.
+
+<img width="735" alt="Screen Shot 2023-06-27 at 10 17 03 AM" src="https://github.com/mrcafune/KittyChat/assets/101951803/d7839b0b-285b-4404-b275-d87f6ef5702c">
 
 After starting the application, you can choose to start a new conversation or load a previous session. The application will guide you with the available commands and options by entering -help. During the conversation, type your message after the "Message:" prompt and the virtual assistant will respond accordingly.
 
-<img width="862" alt="Screen Shot 2023-06-23 at 7 44 31 AM" src="https://github.com/mrcafune/KittyChat/assets/101951803/7e4bd39d-d2f6-4367-8f8f-1416c3d3b29c">
-
-
+<img width="737" alt="Screen Shot 2023-06-27 at 10 21 16 AM" src="https://github.com/mrcafune/KittyChat/assets/101951803/dc7d9ab8-c140-4f61-8875-154aea59a37e">
 
 ## 👩‍💻 Commands
 
@@ -92,4 +94,4 @@ Deploy the finished application to Flatpak, Snap, Deb, and RPM
 
 ## 🫰 API Access
 
-This application is designed to use OpenAI's GPT-3 model. Please ensure you are aware of the costs associated with using OpenAI's API before using this application.
+This application is designed to use OpenAI's GPT-3 model. Please ensure you are aware of the costs associated with using OpenAI's API before using this application.  Note that KittyChat does not send any of your information to any remote servers, etc. ChatGPT will log your conversations, including any personal data you share, and will use it as training data.
