@@ -38,26 +38,42 @@ After starting the application, you can choose to start a new conversation or lo
 
 - `-help`: Display the help message. (lol)
 
-- `-model`: Change the AI Model (Not functional)
+- `-model`: Change the AI Model
+  
+- `-sessionsummary`: Prints the loaded sessions previous conversation
+
+- `-reset`: Runs the first time setup, allowing you to change the API key & Model
+
+- `-clearscreen`: Clears the screen of all previous text
   
 ## 🗺️ Roadmap 
 
-- **[Complete] Better Formatting of Responses**<br />
+- ✅ **[Complete]** Better Formatting of Responses<br />
 Modify the response to be more readable and account for styles of information, like code and list
 
-- **Improved Session System**<br />
+- ✅ **[Complete]** Improved Session System<br />
 Provide tools to print the entire previous session, parts of it, set one or the other by default on load, etc.
 
-- **Create 'First Time Setup'**<br />
+- ✅ **[Complete]** Create 'First Time Setup'<br />
 Allow users to enter API keys on initial setup rather than manually setting it, and choose what Model you want
 
-- **Application Packagement**<br />
-Deploy the finished application to Flatpak, Snap, Deb, and RPM
-
-- **[Complete] Improved Help**<br />
+- ✅ **[Complete]** Improved Help<br />
   Format the help command, add additional options for navigation
+
+- ⏳ **Application Packagement**<br />
+Deploy the finished application to Flatpak, Snap, Deb, and RPM
   
 ## 🗒️ Change Log
+
+**6/27/2023**
+- The `-model` command now allows you to change the language learning model.
+
+- Added `-sessionsummary` so you can now print a summary of the previous session's conversation. It's a useful tool that provides a quick overview of the key points discussed, making it easier for you to review and understand past interactions.
+
+- Added `-reset` command - encountered issues with your API key, language model, or just want to start fresh? No worries! The reset command now enables you to run the first time setup.
+
+- Added `-clearscreen` command that clears the screen, providing a clean slate if things get too clutttered.
+
 **6/23/2023**
 
 - Improved the text generation rate to emulate GPT more accurately, resulting in faster and more appropriately formatted output
@@ -66,7 +82,7 @@ Deploy the finished application to Flatpak, Snap, Deb, and RPM
 
 - Enhanced the Welcome Screen with additional, useful information for better user orientation.
 
-- Revamped the formatting of the (`-help`) command to increase visual appeal and integrated the (`-model`) functionality.
+- Revamped the formatting of the `-help` command to increase visual appeal and integrated the `-model` functionality.
 
 - Optimized the feedback mechanism for Configuration Changes to detail the specific alterations made.
 
