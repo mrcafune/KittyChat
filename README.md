@@ -68,6 +68,9 @@ Deploy the finished application to Flatpak, Snap, Deb, and RPM
 ## 🗒️ Change Log
 
 **6/27/2023**
+
+- I've created an interactive setup process to make it easier for users to get started with our app. During the first time setup, you will be prompted to provide your Chat Model and API key.
+
 - The `-model` command now allows you to change the language learning model.
 
 - Added `-sessionsummary` so you can now print a summary of the previous session's conversation. It's a useful tool that provides a quick overview of the key points discussed, making it easier for you to review and understand past interactions.
