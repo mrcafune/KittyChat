@@ -1,3 +1,8 @@
+# 🌇 KittyChat (Archived)
+
+KittyChat is now **Quari**! Moving forward, all updates, features, and improvements will be made exclusively to the [Quari repository](https://github.com/mrcafune/Quari). This repository will remain archived and will no longer receive updates or maintenance
+
+
 # 🐈 KittyChat - Terminal AI Assistant
 
 <img width="523" alt="Screen Shot 2023-06-27 at 10 24 54 AM" src="https://github.com/mrcafune/KittyChat/assets/101951803/56bbcbea-4312-4c55-982e-6485e35cf18a">
